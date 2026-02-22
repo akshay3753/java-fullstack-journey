@@ -1,4 +1,4 @@
-package stage2a_dsa_foundations;
+package stage2a_dsa_foundations.twopointers;
 
 public class ContainerWater {
     public static void main(String[] args) {

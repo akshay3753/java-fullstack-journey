@@ -1,4 +1,4 @@
-package stage2a_dsa_foundations;
+package stage2a_dsa_foundations.binarysearch;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {

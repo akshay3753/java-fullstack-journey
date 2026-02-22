@@ -1,4 +1,4 @@
-package stage2a_dsa_foundations;
+package stage2a_dsa_foundations.sorting;
 
 public class sortKthLargest {
     public static int findKthLargest(int[] arr, int k){

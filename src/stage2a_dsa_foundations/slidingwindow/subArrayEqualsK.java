@@ -1,4 +1,4 @@
-package stage2a_dsa_foundations;
+package stage2a_dsa_foundations.slidingwindow;
 
 public class subArrayEqualsK {
     public static int subarraySum(int[] arr, int k) {

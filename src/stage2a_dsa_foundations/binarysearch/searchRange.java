@@ -1,4 +1,4 @@
-package stage2a_dsa_foundations;
+package stage2a_dsa_foundations.binarysearch;
 
 import java.util.Arrays;
 
