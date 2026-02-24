@@ -1,4 +1,4 @@
-package stage1a_oop;
+package oop;
 class BankAccount{
     String name;
     int balance;

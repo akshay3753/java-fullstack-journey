@@ -1,4 +1,4 @@
-package stage1a_oop;
+package oop;
 
 public class Student {
     String name;
