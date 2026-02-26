@@ -1,21 +1,18 @@
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+
 
 public class Practice {
     public static void main(String[] args) {
-        int[] arr = {1, 0, 8, 0, 5, 0, 7};
-        int insertPos = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] != 0){
-                arr[insertPos] = arr[i];
-                insertPos++;
+        int[] nums = {1, 0, 8, 0, 5, 0, 7};
+        int k = 3;
+        int rotate = k % nums.length;
+        int temp = nums[0];
+        for (int i = 0; i < rotate; i++) {
+            for(int j = 0; j < nums.length - 1; j++){
+                nums[j] = nums[j+ 1];
             }
         }
-        for (int i = insertPos; i < arr.length; i++) {
-            arr[i] = 0;
-        }
-
-        System.out.println(Arrays.toString(arr));
+        
+        System.out.print(Arrays.toString(nums));
     }
 }

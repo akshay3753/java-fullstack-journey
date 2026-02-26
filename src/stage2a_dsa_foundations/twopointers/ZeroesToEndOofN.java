@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ZeroesToEndOofN {
     public static void main(String[] args) {
         // Write your solution here
-        int[] arr = {0, 1, 0, 2, 3};
+        int[] arr = {0, 1, 4, 0, 5, 2};
         int index = 0;
         for (int i = 0; i < arr.length; i++) {
             if(arr[i] != 0){
